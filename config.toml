@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Santiago de Compostela"
+  description = "Conferencia sobre R en Santiago de Compostela"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -35,8 +35,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "La página no existe"
+    text = "Visita la [página principal](/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -52,12 +52,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
-    portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
-    contact = "Get involved"
+    services = "Sobre el evento"
+    portfolio = "Charlas"
+    eventbrite = "Asistir"
+    schedule = "Calendario"
+    team = "Equipo"
+    contact = "Contacta"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -80,60 +80,60 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Santiago de Compostela"
+    subtitle = "Conferencia para los usuaRios: 12 / 09 / 2020"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "Quiero saber más"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
-    subtitle = "Conference Details"
+    title = "Sobre el evento"
+    subtitle = "Detalles de la conferencia"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      title = "Detalles"
+      description = "12 / 09 / 2020 en Santiago de Compostela"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      title = "Útil"
+      description = "Aplicaciones prácticas y talleres"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      title = "Aprender"
+      description = "Aprende de tus compañeros y de profesionales"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
-      description = "Community organised, community focussed"
+      title = "Hecho por la comunidad"
+      description = "Enfocado para la comunidad de R"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "Only [£30]"
+      title = "Asequible"
+      description = "Solo 20€"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
-      title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      title = "Accesible"
+      description = "Evento inclusivo y respetuoso"
       url = "#"
 
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -141,7 +141,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -151,7 +151,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eventviewid = "162430"
@@ -162,15 +162,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Call for papers section
   [params.callforpapers]
     enable = true
-    title = "Call For Papers"
+    title = "Presentar una propuesta"
     bg = false
-    CfSpage = "/test3490"
-      # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    CfSpage = "https://docs.google.com/forms/d/e/1FAIpQLSfzOYYEYnufAl0nhkkOM0JZjdh3qhhx4HTXS4Im7A-B2vlckg/viewform"
+    dates = "15 de Abril"
   
   # Hackathon section
   [params.hackathon]
-    enable = true
+    enable = false
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
@@ -184,7 +183,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -201,13 +200,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = "Conference"
@@ -241,14 +240,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Location section
   [params.location]
-    enable = true
+    enable = false
     title = "Location title"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Team"
@@ -303,7 +302,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -360,7 +359,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "madrid@rladies.org"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
