@@ -247,57 +247,53 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
-    title = "Team"
-    subtitle = "The people putting it together"
+    title = "Equipo"
+    subtitle = "Estamos trabajando en ello"
     bg = false
     description = ""
-    speakers = "Speakers"
+    speakers = ""
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      img = "xantar.jpg"
+      name = "Xantar Dev"
+      position = "Organizador local"
+      livesIn = "[Galicia, Spain](https://goo.gl/maps/GPTJTnVufV4p5b9a9)"
       scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
+        "[Aurora Baluja](https://twitter.com/maureviv)",
+        "[Bárbara Román](https://twitter.com/nolegaltech)",
+        "[Daniel Rey](https://twitter.com/kdarrey)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      bio = """XantarDev nace como unha comunidade técnica na Comarca de Santiago co propósito de dar un paso máis nas quedadas laborais."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/XantarDev"],
+        ["fa-meetup", "https://www.meetup.com/XantarDev"],
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      img = "rladies.png"
+      name = "R-Ladies Madrid"
+      position = "Organizador"
+      livesIn = "[Madrid, Spain](https://goo.gl/maps/hnEB9pChpi3gN7Si8)"
+      scope = [
+        "[Beatriz Hernández](https://twitter.com/Chucheria)",
+        "[Inés Huertas](https://twitter.com/quierodata)",
+        "[Elen Irazabal](https://twitter.com/IrazabalElen)",
+        "[Leticia Martín-Fuertes](https://twitter.com/nimbusaeta)",
+        "[Miguel Flores](https://twitter.com/kdarrey)"
       ]
-
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      # For bio markdown and even multiline strings are available.
+      bio = """XantarDev nace como unha comunidade técnica na Comarca de Santiago co propósito de dar un paso máis nas quedadas laborais."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/rladiesmad"],
+        ["fa-meetup", "https://www.meetup.com/rladies-madrid"],
       ]
 
   # Client section
