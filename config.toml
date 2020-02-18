@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://compostela2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -287,10 +287,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "[Inés Huertas](https://twitter.com/quierodata)",
         "[Elen Irazabal](https://twitter.com/IrazabalElen)",
         "[Leticia Martín-Fuertes](https://twitter.com/nimbusaeta)",
-        "[Miguel Flores](https://twitter.com/kdarrey)"
+        "[Miguel Flores](https://twitter.com/miguelfj82)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """XantarDev nace como unha comunidade técnica na Comarca de Santiago co propósito de dar un paso máis nas quedadas laborais."""
+      bio = """R-Ladies es una comunidad para fomentar la diversidad de género entre les usuaries del lenguaje."""
       social = [
         ["fa-twitter", "https://twitter.com/rladiesmad"],
         ["fa-meetup", "https://www.meetup.com/rladies-madrid"],
