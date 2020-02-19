@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Santiago de Compostela"
-    subtitle = "Conferencia para los usuaRios: 12 / 09 / 2020"
+    subtitle = "Conferencia para useRs: 12 - 09 - 2020"
     bg = true
     buttonText = "Quiero saber más"
 
@@ -206,37 +206,43 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Important Dates [About] section
   [params.about]
-    enable = false
-    title = "Important Dates"
-    subtitle = "Be prepared!"
-    endpoint = "Conference"
+    enable = true
+    title = "Fechas importantes"
+    subtitle = ""
+    endpoint = "Satrday Santiago de Compostela"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      img = "satrday.png"
+      date = "19-02-2020"
+      title = "¡Anunciamos!"
+      description = "satRday Santiago de Compostela está vivo... ¡Vivo!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      img = "cfp.jpeg"
+      date = "19-02-2020"
+      title = "Presentación de propuestas"
+      description = "Se abre el plazo para presentar charlas y talleres"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      img = "early.png"
+      date = "TBD"
+      title = "Venta de entradas Early Bird"
+      description = "Primera remesa de entradas con descuento"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+      img = "cfp.jpeg"
+      date = "15-04-2020"
+      title = "Cierre de la presentación de propuestas"
+      description = "Último día para presentar charlas y talleres"
+
+    [[params.about.events]]
+      img = "early.png"
+      date = "TBD"
+      title = "Resto de entradas y becas"
+      description = "Comienza la venta de las entradas generales y la opción de pedir entradas gratuitas"
   
   # Location section
   [params.location]
@@ -251,7 +257,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Possibility to center items
     #center = true
     title = "Equipo"
-    subtitle = "Estamos trabajando en ello"
+    subtitle = "Quiénes somos"
     bg = false
     description = ""
     speakers = ""
@@ -326,15 +332,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Diversidad e inclusión"
     bg = true
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contacta"
+    subtitle  = ""
+    buttonText = ""
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
