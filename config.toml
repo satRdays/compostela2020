@@ -271,7 +271,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "[Daniel Rey](https://twitter.com/kdarrey)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """XantarDev nace como unha comunidade técnica na Comarca de Santiago co propósito de dar un paso máis nas quedadas laborais."""
+      bio = """XantarDev nace como una comunidad técnica en la comarca de Santiago con la intención de dar un paso en los encuentros fuera del trabajo."""
       social = [
         ["fa-twitter", "https://twitter.com/XantarDev"],
         ["fa-meetup", "https://www.meetup.com/XantarDev"],
