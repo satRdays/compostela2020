@@ -1,6 +1,6 @@
 ## satRday_site_template
 
-### What I can do
+### Qué puedo hacer
 
 I can give you most of a website for satRdays events, ready (almost) out of the box. I have a number of sections to help you out:
 * Event description
