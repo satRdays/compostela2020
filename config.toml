@@ -255,7 +255,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Equipo"
     subtitle = "Quiénes somos"
     bg = false
