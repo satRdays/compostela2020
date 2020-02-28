@@ -317,6 +317,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "jumpingrivers.png"
       link = "https://www.jumpingrivers.com"
+    [[params.clients]]
+      logo = "stickermule.png"
+      link = "http://stickermule.com/supports/satrdaysantiago"
 
   [params.diversity]
     enable = true
