@@ -81,10 +81,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Santiago de Compostela"
-    subtitle = "Conferencia para useRs: 12 - 09 - 2020"
+    subtitle = "Aviso importante: nos hacía mucha ilusión organizar el primer SatRdays de España, pero ¡nos hace más ilusión todavía mantener a todo el mundo a salvo! Como la salud es lo primero, hemos pospuesto, en principio hasta el segundo trimestre de 2021, la celebración del SatRdays Santiago de Compostela. Esto significa que estaremos atentas a lo que digan las autoridades sobre eventos que nos afecte y, cuando sea seguro, retomaremos nuestros planes de traer este formato de charlas. ¡Muchas gracias a todos por la confianza y el interés! Pero no te preocupes: como todo, el SatRdays Santiago de Compostela llegará."
     bg = true
     buttonText = "Quiero saber más"
-    description = "Aviso importante: nos hacía mucha ilusión organizar el primer SatRdays de España, pero ¡nos hace más ilusión todavía mantener a todo el mundo a salvo! Como la salud es lo primero, hemos pospuesto, en principio hasta el segundo trimestre de 2021, la celebración del SatRdays Santiago de Compostela. Esto significa que estaremos atentas a lo que digan las autoridades sobre eventos que nos afecte y, cuando sea seguro, retomaremos nuestros planes de traer este formato de charlas. ¡Muchas gracias a todos por la confianza y el interés! Pero no te preocupes: como todo, el SatRdays Santiago de Compostela llegará."
 
 
   # About [Services] section
